@@ -1,0 +1,166 @@
+body{
+    font-family: 'Times New Roman' !important;
+    line-height: 1.6rem;
+    letter-spacing: .5px;
+}
+
+
+.secondNav{
+    padding-left: 105px;
+    padding-right: 105px;
+}
+
+.me-auto{
+    margin-left: auto !important;
+}
+
+.me-auto{
+    margin-right:unset!important;
+}
+
+.navbar{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:red;
+    font-size: 17px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-bottom: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: 2px solid black;
+    color: red;
+}
+
+.navbar-light .secondNav .navbar-nav .nav-link.active{
+    border-bottom: 2px solid black;
+    color: red;
+}
+
+/*trusted*/
+/*2nd div*/
+
+@media (max-width: 768px)
+{#sec{
+    min-height:470px;
+}}
+
+/*left side content*/
+#sec{
+    background-color: #88878712;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+
+
+#sectxt{
+    margin-top: 40px;
+    padding-left: 50px;
+    position: relative;
+}
+
+#sectxt h1{
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.col-10{
+    text-align: center;
+
+}
+
+@media (min-width: 768px)
+{#sectxt{
+    text-align:left !important
+}}
+
+
+/*hover effect*/
+
+#content{
+    margin-top: 20px;
+    text-align: center !important;
+}
+
+
+/*right side content*/
+.secimgs .img-fluid{
+    margin-top: -25px;
+    padding-left: 0px;
+    max-width: 100%;
+    border: 2px solid red;
+}
+
+@media (max-width: 1000px)
+{.secimgs .img-fluid {
+    margin-top: -40px;
+    max-width: 110%;
+}}
+
+.size{
+    height: 500px !important;
+}
+
+.bttn{
+    background-color: red;
+    color: white;
+    position: relative;
+    font-size: 15px;
+    padding: 7px;
+    border: none;
+    left: 200px;
+    margin-top: 10px;
+
+}
+
+.para{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.foot{
+    background-color: #324050;
+}
+
+
+
+/*Last Div*/
+.last{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.lastdiv{
+    margin-bottom: 20px;
+}
+
+.socialIcon {
+    margin-right: 1rem;
+    font-size: 1.5rem !important;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 8px;
+    color: white !important;
+}
+
+.lastdiv ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.socialIcon:hover {
+    color: #5692ac !important;
+}
+
+
+
